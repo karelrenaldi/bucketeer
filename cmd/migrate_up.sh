@@ -1,0 +1,1 @@
+migrate -path ../migrations -database "mysql://root:pw@(localhost:3307)/bucket?charset=utf8mb4&parseTime=True&loc=Local" -verbose up
